@@ -12,5 +12,5 @@ function translate(text) {
 			output += words[i] + " ";
 		}
 	}
-	return output;
+	return output.trim();
 }
